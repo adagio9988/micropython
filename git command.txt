@@ -1,0 +1,32 @@
+https://github.com/adagio9988/hello-rf.git
+
+# 초기화 
+git init
+
+# 연결 
+git remote add orign https://github.com/adagio9988/hello-rf.git
+git remote add orign https://github.com/adagio9988/hello-world.git
+
+# push 전에 pull 이 있다
+#---------- Pull -------------------------------
+# Pull ,  지정해 놓은 Repository에서 끌어 온다 ..
+git pull origin master
+
+#---------- Push ------------------------------
+# 로칼 폴더와, git 의 상태를 체크해 준다.
+git status
+
+# 변경된 파일들을 모두 Tracking !
+git add .
+
+# 인식할 수 있는 commit을 달아준다
+git commit -m "Hello retry comm"
+
+# 실제로 Git에 PUSH !!
+git push orign master
+
+
+git config --global user.name "adagio9988"
+git config --global user.email "rf99881000@gmail.com"
+
+

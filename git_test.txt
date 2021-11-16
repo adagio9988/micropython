@@ -1,0 +1,11 @@
+안녕하세요...
+
+메모밍 채널
+
+make MICROPY_PY_WIZNET5K=5500 BOARD=BLACK_F407VE
+
+
+export IDF_TARGET=esp32s2
+make BOARD=GENERIC_S2
+
+memoming@naver.com
